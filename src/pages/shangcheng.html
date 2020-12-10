@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>小米手机</title>
+    <link rel="stylesheet" href="../css/public.css" />
+    <link
+      rel="stylesheet"
+      href="../assets/js/bootstrap/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../assets/js/jquery-pagination/pagination.css"
+    />
+    <link rel="stylesheet" href="../css/shangcheng.css" />
+  </head>
+  <body>
+    <div class="sc-container">
+      <header>
+        <img
+          src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/bb3c06a430689ba2357dd7d1fbfa6bab.jpg?w=5120&h=240"
+          alt=""
+        />
+      </header>
+      <!--小导航 -->
+      <div class="nav">
+        <div class="container nav_1">
+          <p>
+            <a href=""><span>小米商城</span></a>
+            <a href=""><span>MIUI</span></a>
+            <a href=""><span>IoT</span></a>
+            <a href=""><span>云服务</span></a>
+            <a href=""><span>天星数科</span></a>
+            <a href=""><span>有品</span></a>
+            <a href=""><span>小爱开放平台</span></a>
+            <a href=""><span>企业团购</span></a>
+            <a href=""><span>资质证照</span></a>
+            <a href=""><span>协议规则</span></a>
+            <a href=""><span>下载app</span></a>
+            <a href=""><span>智能生活</span></a>
+            <a href=""><span>Select Location</span></a>
+          </p>
+          <p>
+            <span>
+              <a href=" ">登录</a>
+              <a href="../pages/zhuce.html">注册</a>
+              <a href="">消息通知 </a>
+            </span>
+            <span>
+              <a href="../pages/gouwuche.html"> 🛒 购物车 (0)</a>
+            </span>
+          </p>
+        </div>
+      </div>
+      <!-- 中间导航 搜索框-->
+      <div class="box2 container">
+        <ul class="centerNav container">
+          <li>
+            <img src="../images/zhuce/miloge.jpg" /><img
+              src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/1e455ea5dca7763e88f7a4bfface056d.jpg?w=165&h=55"
+              alt=""
+            />
+          </li>
+          <li>
+            <p>
+              <a href=""><span>小米手机</span></a>
+              <a href=""><span>Redmi 红米</span></a>
+              <a href=""><span>电视</span></a>
+              <a href=""><span>笔记本</span></a>
+              <a href=""><span>家电</span></a>
+              <a href=""><span>路由器</span></a>
+              <a href=""><span>智能硬件</span></a>
+              <a href=""><span>服务</span></a>
+              <a href=""><span>社区</span></a>
+            </p>
+            <p>
+              <input type="text" placeholder="Redmi 10X 5G" /><button>
+                <img src="../images/index/search.png" alt="" />
+              </button>
+            </p>
+          </li>
+        </ul>
+
+        <div class="childrenlist a1">
+          <div class="container b2">
+            <div>
+              <a href=""
+                ><img src="../images/index/WechatIMG189.png" alt="" />
+                <h3>小米10至尊纪念版</h3>
+                <h4>5299元起</h4></a
+              >
+            </div>
+            <div>
+              <a href=""
+                ><img src="../images/index/WechatIMG189.png" alt="" />
+                <h3>小米10至尊纪念版</h3>
+                <h4>5299元起</h4></a
+              >
+            </div>
+            <div>
+              <a href=""
+                ><img src="../images/index/WechatIMG189.png" alt="" />
+                <h3>小米10至尊纪念版</h3>
+                <h4>5299元起</h4></a
+              >
+            </div>
+            <div>
+              <a href=""
+                ><img src="../images/index/WechatIMG189.png" alt="" />
+                <h3>小米10至尊纪念版</h3>
+                <h4>5299元起</h4></a
+              >
+            </div>
+            <div>
+              <a href=""
+                ><img src="../images/index/WechatIMG189.png" alt="" />
+                <h3>小米10至尊纪念版</h3>
+                <h4>5299元起</h4>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 分页信息面板
+      <div class="info pagiInfo container">
+        <div class="panel panel-warning">
+          <div class="panel-heading">分页信息</div>
+          <div class="panel-body pagination m-style"></div>
+        </div>
+      </div> -->
+
+      <div class="sc-header-row-wrap">
+        <div class="sc-nav">
+          <ul class="sc-header-row">
+            <span class="sc-nav-label">拍照像素:</span>
+            <a href="#" class="sc-nav-li-wrap" onclick="filter(8,25)"
+              ><li class="sc-nav-li">四摄像头</li></a
+            >
+            <a href="#" class="sc-nav-li-wrap" onclick="filter(1,7)"
+              ><li class="sc-nav-li-wrap">三摄像头</li></a
+            >
+            <a href="#" class="sc-nav-li-wrap" onclick="filter(25,45)"
+              ><li class="sc-nav-li-wrap">双摄像头</li></a
+            >
+            <a href="#" class="sc-nav-li-wrap" onclick="filter(45,57)"
+              ><li class="sc-nav-li-wrap">高清拍摄</li></a
+            >
+            <a href="#" class="sc-nav-li-wrap"
+              ><li class="sc-nav-li-wrap"></li
+            ></a>
+          </ul>
+          <hr />
+          <ul class="sc-header-row">
+            <span class="sc-nav-label">屏幕大小:</span>
+            <a href="#" class="sc-nav-li-wrap" onclick="filter(1,53)"
+              ><li class="sc-nav-li">超大屏</li></a
+            >
+            <a href="#" class="sc-nav-li-wrap" onclick="filter(53,57)"
+              ><li class="sc-nav-li">中小屏</li></a
+            >
+            <a href="#" class="sc-nav-li-wrap"><li class="sc-nav-li"></li></a>
+            <a href="#" class="sc-nav-li-wrap"><li class="sc-nav-li"></li></a>
+            <a href="#" class="sc-nav-li-wrap"><li class="sc-nav-li"></li></a>
+          </ul>
+
+          <div class="sc-goods-list-ctnr">
+            <div class="sc-goods-order-label">
+              <ul class="sc-goods-order-label-ul">
+                <a href="#" class="sc-nav-li-wrap" onclick="sortList('index')">
+                  <li class="sc-goods-order-label-item">综合</li></a
+                >
+                <hr />
+                <a href="#" class="sc-nav-li-wrap" onclick="sortList('date')"
+                  ><li class="sc-goods-order-label-item">新品</li></a
+                >
+                <hr />
+                <a
+                  href="#"
+                  class="sc-nav-li-wrap"
+                  onclick="sortList('salesVolume')"
+                  ><li class="sc-goods-order-label-item">销量</li></a
+                >
+                <hr />
+                <a href="#" class="sc-nav-li-wrap" onclick="sortList('price')"
+                  ><li class="sc-goods-order-label-item">价格 ↑</li></a
+                >
+              </ul>
+            </div>
+            <div class="sc-goods-ctnr-outer">
+            <div class="sc-goods-ctnr" id="sc-goods-ctnr"></div>
+            <nav aria-label="Page navigation">
+              <ul class="pagination">
+                
+              </ul>
+            </nav>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="../assets/js/jquery.min.js"></script>
+    <script src="../assets/js/bootstrap/js/bootstrap.min.js"></script>
+    <script src="../assets/js/jquery-pagination/jquery.pagination.min.js"></script>
+    <script src="../js/shangcheng.js"></script>
+  </body>
+</html>

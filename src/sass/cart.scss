@@ -1,0 +1,180 @@
+.container {
+    width: 1226px;
+    margin: 0 auto;
+}
+body {
+    background-color: #f5f5f5;
+}
+.header {
+    font-size: 12px;
+    border-bottom: 2px solid #ff6700;
+    background: #fff;
+    color: #b0b0b0;
+    position: relative;
+    height: 100px;
+    .cartheader {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        line-height: 100px;
+        height: 100px;
+        width: 1226px;
+        .left {
+            display: flex;
+            align-items: center;
+            img {
+                width: 48px;
+                height: 48px;
+            }
+            h3 {
+                font-size: 28px;
+                color: #424242;
+                margin-left: 45px;
+                margin-right: 15px;
+            }
+            p {
+                font-size: 12px;
+            }
+            
+        }
+        .right {
+            font-size: 12px;
+            color: #757575;
+            &>img  {
+                display: inline-block;
+                height: 18px;
+                vertical-align: middle;
+            }
+            .username {
+                font-size: 12px;
+                color: #757575;
+                display: inline-block;
+                width: 110px;
+                height: 100px;
+                img {
+                    width: 18px;
+                    height: 22px; 
+                    vertical-align: middle;  
+                    margin-left: 10px; 
+                }
+            }
+           
+            span {
+                font-size: 12px;
+                color: #757575;
+                width: 80px;
+                padding: 0 5px;
+            }
+        }
+    }
+}
+.center {
+     background-color: #fff;
+     margin-top: 38px;
+     height: 1000px;
+     position: relative;
+     .top { 
+         height: 70px;
+         line-height: 70px;
+         width: 100%;
+         position: relative;
+         border-bottom: 1px solid #e0e0e0;
+         div {
+             float: left;
+            color: #424242;
+            font-size: 14px;
+            text-align: center;
+         }
+        div:nth-child(1){
+            width: 110px;
+            margin-right: 70px;
+            input {
+                margin-right: 10px;
+            }
+            text-indent: 20px;
+            }
+         div:nth-child(2){
+             width: 380px;
+            }
+         div:nth-child(3){
+             width: 158px;
+
+            }
+         div:nth-child(4){
+             width: 150px;
+            }
+         div:nth-child(5){
+             width: 210px;
+            }
+        div:nth-child(6){
+             width: 70px;
+            }
+     }
+     .list {
+         padding: 0 20px;
+         height: 86px;
+         width: 100%;
+         font-size: 16px;
+         color: #424242;
+         line-height: 86px;
+         div {
+            float: left;
+           text-align: center;
+        }
+       div:nth-child(1){
+           width: 110px;
+           text-indent: 20px;
+           }
+        div:nth-child(2) {
+            width: 70px;
+            img {
+                width: 80px;
+                height: 80px;
+                vertical-align: middle;
+            }
+        }
+        div:nth-child(3){
+            width: 380px;
+            font-size: 18px;
+           }
+        div:nth-child(4){
+            width: 158px;
+
+           }
+        div:nth-child(5){
+            h4 {position: relative;
+                display: inline-block;
+                vertical-align: middle;
+                height: 38px;
+                line-height: 38px;
+                border: 1px solid #e0e0e0;
+                width: 150px;
+                button {
+                    float: left;
+                    display: block;
+                    width: 38px;
+                    height: 38px;
+                    background-color: #fff;
+                 }
+                 span {
+                     display: block;
+                     float: left;
+                     width: 72px;
+                 }
+            }
+           }
+        div:nth-child(6){
+            width: 210px;
+            color: #ff6700;
+           }
+       div:nth-child(7){
+            width: 70px;
+            img {
+                width: 24px;
+                height: 24px;
+                vertical-align: middle;
+            }
+           }
+     }
+
+}

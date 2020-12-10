@@ -1,0 +1,27 @@
+/* 清除默认样式 */
+
+* {
+	padding: 0;
+	margin: 0;
+	font-size: 14px;
+	font-family: Helvetica Neue,Helvetica,Arial,Microsoft Yahei,Hiragino Sans GB,Heiti SC,WenQuanYi Micro Hei,sans-serif;
+}
+a {
+	text-decoration: none;
+	color: #757575;
+}
+/* 列表小点清除 */
+ol,ul li {
+	list-style: none;
+}
+/* 清除input和button默认的边框和点击后自带的边框 */
+input,button {
+	border: 0px;
+	outline: none;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-weight: normal;
+}
+img {
+	vertical-align: top;
+}

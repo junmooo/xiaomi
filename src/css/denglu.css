@@ -1,0 +1,116 @@
+@charset "UTF-8";
+.bodyy {
+  font-family: Helvetica, arial, "MI Lan Pro", "Hiragino Sans GB", "PingFang SC", "Microsoft YaHei", "微軟正黑體", "儷黑 Pro", sans-serif;
+  background-color: #F9F9F9;
+  width: 100%;
+  height: 100vh;
+  padding: 45px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.bodyy .header {
+  background-color: #fff;
+  padding: 0 34px 30px;
+  width: 786px;
+  height: 520px;
+  margin: 0 auto;
+  color: #333333;
+  text-align: center;
+}
+.bodyy .header button, .bodyy .header input, .bodyy .header select, .bodyy .header textarea {
+  font-family: arial, "MI Lan Pro", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+}
+.bodyy .header .img {
+  padding-top: 25px;
+}
+.bodyy .header div {
+  padding: 0 0 15px;
+}
+.bodyy .header div img {
+  width: 49px;
+  height: 48px;
+}
+.bodyy .header h4 {
+  height: 22px;
+  font-size: 22px;
+  line-height: 22px;
+}
+.bodyy .header form {
+  width: 358px;
+  color: #666666;
+  text-align: left;
+  margin: 0px 227px;
+  padding: 0px 0px 30px;
+  line-height: 20px;
+  font-size: 14px;
+}
+.bodyy .header form input.error {
+  border: 1px solid red;
+}
+.bodyy .header form label.error {
+  color: red;
+}
+.bodyy .header form input {
+  margin-top: 10px;
+  width: 100%;
+  height: 48px;
+  padding-left: 14px;
+  line-height: 48px;
+  display: block;
+  border: 1px solid #e8e8e8;
+  color: #4a4a4a;
+}
+.bodyy .header form button {
+  margin-top: 15px;
+  width: 374px;
+  height: 50px;
+  line-height: 50px;
+  cursor: pointer;
+  background-color: #ff6700;
+  border: 1px solid rgba(186, 186, 186, 0.3);
+  color: #fff;
+  display: block;
+  font-size: 14px;
+}
+.bodyy .header form a {
+  color: #ff6700;
+  width: 100%;
+  display: block;
+  text-align: center;
+  margin-top: 10px;
+}
+.bodyy .header h2 {
+  color: #757575;
+  font-size: 14px;
+}
+.bodyy .header h3 {
+  font-size: 14px;
+  color: #b0b0b0;
+  padding-top: 50px;
+  margin-bottom: 12px;
+}
+.bodyy .header h5 img {
+  padding-top: 5px;
+  height: 30px;
+}
+.bodyy .footer {
+  padding: 30px 0 50px;
+  height: 80px;
+  width: 100%;
+  text-align: center;
+  color: #9d9d9d;
+}
+.bodyy .footer ul {
+  padding-bottom: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bodyy .footer ul li > span {
+  color: #333333;
+}
+.bodyy .footer b {
+  color: #333333;
+}
+
+/*# sourceMappingURL=denglu.css.map */

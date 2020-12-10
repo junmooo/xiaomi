@@ -1,0 +1,292 @@
+.container {
+  width: 1226px;
+  margin: 0 auto;
+}
+
+header {
+  width: 100%;
+  overflow: hidden;
+}
+header img {
+  height: 120px;
+  width: 100%;
+  transform: scaleZ(1.6);
+  transform: scaleX(1.65);
+  box-sizing: border-box;
+}
+
+.nav {
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  font-size: 12px;
+  color: #b0b0b0;
+  background: #333;
+}
+.nav .nav_1 {
+  position: relative;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+.nav .nav_1 p a span {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 12px;
+  padding: 0 5px;
+}
+.nav .nav_1 p a span:hover {
+  color: #fff;
+}
+.nav .nav_1 p span a {
+  color: rgba(255, 255, 255, 0.6);
+  padding: 0 5px;
+  font-size: 12px;
+}
+.nav .nav_1 p span a:hover {
+  color: #fff;
+}
+
+.box2 {
+  position: relative;
+  height: 100px;
+  width: 100%;
+}
+.box2 .childrenlist {
+  width: 100%;
+  height: 160px;
+  background-color: #fff;
+  color: #333;
+  text-align: center;
+  border-top: 1px solid #e0e0e0;
+  position: absolute;
+  top: 100px;
+  left: 0;
+  z-index: 9;
+  display: none;
+}
+.box2 .childrenlist .b2 {
+  background-color: #fff;
+  height: 160px;
+  padding: 30px 25px;
+}
+.box2 .childrenlist .b2 div {
+  float: left;
+  padding: 0 25px;
+}
+.box2 .childrenlist .b2 div a {
+  display: block;
+}
+.box2 .childrenlist .b2 div a img {
+  width: 80px;
+  height: 100px;
+}
+.box2 .childrenlist .b2 div a h3 {
+  padding: 20px 0 5px;
+  color: #333;
+}
+.box2 .childrenlist .b2 div a h4 {
+  color: #ff6700;
+}
+.box2 .centerNav {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 16px;
+  height: 100px;
+  line-height: 100px;
+  color: #333333;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.box2 .centerNav li:nth-of-type(1) {
+  width: 234px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.box2 .centerNav li:nth-of-type(1) img:nth-of-type(1) {
+  display: block;
+  width: 55px;
+  height: 55px;
+}
+.box2 .centerNav li:nth-of-type(1) img:nth-of-type(2) {
+  display: block;
+}
+.box2 .centerNav li:nth-of-type(2) {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.box2 .centerNav li:nth-of-type(2) p:nth-of-type(1) a span {
+  color: #333;
+  font-size: 16px;
+  display: inline-block;
+  padding: 0 10px;
+}
+.box2 .centerNav li:nth-of-type(2) p:nth-of-type(1) a span:hover {
+  color: #ff6700;
+}
+.box2 .centerNav li:nth-of-type(2) p:nth-of-type(2) {
+  height: 50px;
+}
+.box2 .centerNav li:nth-of-type(2) p:nth-of-type(2) input {
+  float: left;
+  display: block;
+  height: 50px;
+  width: 245px;
+  border: 1px solid #e0e0e0;
+  padding: 0 10px;
+}
+.box2 .centerNav li:nth-of-type(2) p:nth-of-type(2) button {
+  float: left;
+  display: block;
+  height: 52px;
+  width: 52px;
+  padding: 1px 6px;
+  border: 1px solid #e0e0e0;
+  border-left: none;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box2 .centerNav li:nth-of-type(2) p:nth-of-type(2) button img {
+  width: 20px;
+  height: 20px;
+}
+
+.banner {
+  height: 460px;
+  position: relative;
+  overflow: hidden;
+}
+.banner ul.imgBox {
+  width: 500%;
+  display: flex;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.banner ul.imgBox li {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 100px;
+  height: 100%;
+}
+.banner ul.imgBox li a {
+  cursor: pointer;
+}
+.banner ul.imgBox li a img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.banner ol.pointBox {
+  width: 200px;
+  height: 21px;
+  line-height: 30px;
+  position: absolute;
+  right: 30px;
+  bottom: 20px;
+  border-radius: 15px;
+  display: flex;
+  text-align: right;
+}
+.banner ol.pointBox li {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  border: 2px solid #757575;
+  background-color: #00000066;
+  cursor: pointer;
+  margin: 0 4px;
+  color: #757575;
+}
+.banner ol.pointBox li.active {
+  background-color: #ffffff66;
+  border: 2px solid #00000066;
+}
+.banner .leftRight {
+  cursor: pointer;
+  width: 80%;
+  height: 60px;
+  position: absolute;
+  left: 234px;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.banner .leftRight div {
+  height: 60px;
+  width: 40px;
+  font-size: 30px;
+  color: #757575;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.banner .leftRight div:hover {
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.banner .navleft {
+  height: 460px;
+  width: 234px;
+  color: #fff;
+  background: rgba(105, 101, 101, 0.6);
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 20px 0;
+}
+.banner .navleft li {
+  cursor: pointer;
+  padding: 10px 30px;
+}
+.banner .navleft li:hover {
+  background-color: #ff6700;
+}
+.banner .navleft li a {
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+
+.picNav {
+  height: 170px;
+  padding-top: 14px;
+}
+.picNav div {
+  width: 234px;
+  height: 170px;
+  float: left;
+}
+.picNav div a {
+  display: block;
+}
+.picNav div a img {
+  display: block;
+  width: 234px;
+  margin-left: 0;
+}
+.picNav a {
+  display: block;
+}
+.picNav a img {
+  display: block;
+  float: left;
+  width: 316px;
+  height: 170px;
+  margin-left: 14px;
+}
+
+/*# sourceMappingURL=index.css.map */
